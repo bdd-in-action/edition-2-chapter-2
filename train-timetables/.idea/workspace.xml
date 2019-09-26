@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="201f271c-b7f1-4ad2-96bc-a7ebbbab95a7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="183" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1RHa90oEkSJvjbD3lBzKanGB9yf" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/manning/bddinaction" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features/itineraries" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="manning.bddinaction.timetables" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="manning.bddinaction.itineraries" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/features/itineraries" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="manning.bddinaction.timetables" />
+      <recent name="manning.bddinaction.itineraries" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/features/itineraries" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AcceptanceTestSuite">
+    <configuration name="AcceptanceTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="train-timetables" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="manning.bddinaction.acceptancetests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="manning.bddinaction.acceptancetests" />
+      <option name="MAIN_CLASS_NAME" value="manning.bddinaction.acceptancetests.AcceptanceTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenFindingNextDepatureTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="train-timetables" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="manning.bddinaction.itineraries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="manning.bddinaction.itineraries" />
+      <option name="MAIN_CLASS_NAME" value="manning.bddinaction.itineraries.WhenFindingNextDepatureTimes" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenQueryingTrainServices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="train-timetables" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="manning.bddinaction.timetables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="manning.bddinaction.timetables" />
+      <option name="MAIN_CLASS_NAME" value="manning.bddinaction.timetables.WhenQueryingTrainServices" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenQueryingTrainServices.trainLinesHaveMoreThanOneDepartureTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="train-timetables" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="manning.bddinaction.timetables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="manning.bddinaction.timetables" />
+      <option name="MAIN_CLASS_NAME" value="manning.bddinaction.timetables.WhenQueryingTrainServices" />
+      <option name="METHOD_NAME" value="trainLinesHaveMoreThanOneDepartureTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenRecordingTrainSchedules" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="train-timetables" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="manning.bddinaction.timetables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="manning.bddinaction.timetables" />
+      <option name="MAIN_CLASS_NAME" value="manning.bddinaction.timetables.WhenRecordingTrainSchedules" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AcceptanceTestSuite" />
+        <item itemvalue="JUnit.WhenRecordingTrainSchedules" />
+        <item itemvalue="JUnit.WhenQueryingTrainServices" />
+        <item itemvalue="JUnit.WhenFindingNextDepatureTimes" />
+        <item itemvalue="JUnit.WhenQueryingTrainServices.trainLinesHaveMoreThanOneDepartureTime" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="201f271c-b7f1-4ad2-96bc-a7ebbbab95a7" name="Default Changelist" comment="" />
+      <created>1569326319773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569326319773</updated>
+      <workItem from="1569326323016" duration="11164000" />
+      <workItem from="1569422102975" duration="31594000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-reports/2.0.72/serenity-reports-2.0.72-sources.jar!/net/thucydides/core/reports/html/RequirementsOverviewReportingTask.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-model/2.0.72/serenity-model-2.0.72-sources.jar!/net/thucydides/core/requirements/model/Requirement.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-model/2.0.72/serenity-model-2.0.72-sources.jar!/net/thucydides/core/requirements/model/Requirement.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-model/2.0.72/serenity-model-2.0.72-sources.jar!/net/thucydides/core/requirements/model/Requirement.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-model/2.0.72/serenity-model-2.0.72-sources.jar!/net/thucydides/core/requirements/model/Requirement.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-model/2.0.72/serenity-model-2.0.72-sources.jar!/net/thucydides/core/requirements/model/Requirement.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-model/2.0.72/serenity-model-2.0.72-sources.jar!/net/thucydides/core/requirements/model/Requirement.java</url>
+          <line>231</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-model/2.0.72/serenity-model-2.0.72-sources.jar!/net/thucydides/core/requirements/model/Requirement.java</url>
+          <line>237</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-model/2.0.72/serenity-model-2.0.72-sources.jar!/net/thucydides/core/requirements/FileSystemRequirementsTagProvider.java</url>
+          <line>605</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-model/2.0.72/serenity-model-2.0.72-sources.jar!/net/thucydides/core/requirements/FileSystemRequirementsTagProvider.java</url>
+          <line>632</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-model/2.0.72/serenity-model-2.0.72-sources.jar!/net/thucydides/core/requirements/FileSystemRequirementsTagProvider.java</url>
+          <line>590</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-model/2.0.72/serenity-model-2.0.72-sources.jar!/net/thucydides/core/requirements/FileSystemRequirementsTagProvider.java</url>
+          <line>592</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-model/2.0.72/serenity-model-2.0.72-sources.jar!/net/thucydides/core/requirements/model/cucumber/CucumberParser.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-reports/2.0.72/serenity-reports-2.0.72-sources.jar!/net/thucydides/core/reports/html/RequirementsOverviewReportingTask.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-reports/2.0.72/serenity-reports-2.0.72-sources.jar!/net/thucydides/core/reports/html/RequirementsOverviewReportingTask.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-reports/2.0.72/serenity-reports-2.0.72-sources.jar!/net/thucydides/core/reports/html/RequirementsOverviewReportingTask.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/manning/bddinaction/steps/DepartingTrainsStepDefinitions.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/manning/bddinaction/itineraries/ItineraryService.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/train_timetables$WhenCheckingTrainLines.ic" NAME="WhenCheckingTrainLines Coverage Results" MODIFIED="1569502101116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>manning.bddinaction.timetables.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/train_timetables$WhenRecordingTrainSchedules.ic" NAME="WhenRecordingTrainSchedules Coverage Results" MODIFIED="1569502108391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>manning.bddinaction.timetables.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/train_timetables$WhenFindingNextDepatureTimes.ic" NAME="WhenFindingNextDepatureTimes Coverage Results" MODIFIED="1569502093485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>manning.bddinaction.itineraries.*</FILTER>
+    </SUITE>
+  </component>
+</project>
