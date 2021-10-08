@@ -1,11 +1,11 @@
 package manning.bddinaction.steps;
 
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.java.ParameterType;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import manning.bddinaction.itineraries.ItineraryService;
 import manning.bddinaction.timetables.InMemoryTimeTable;
-import manning.bddinaction.timetables.TimeTable;
 
 import java.time.LocalTime;
 import java.util.List;
@@ -19,33 +19,44 @@ public class DepartingTrainsStepDefinitions {
     InMemoryTimeTable timeTable = new InMemoryTimeTable();
     ItineraryService itineraryService = new ItineraryService(timeTable);
 
-    @Given("the (.*) train to (.*) leaves (.*) at (.*)")
+    @Given("the {line} train to {station} leaves {station} at {times}")
     public void theTrainLeavesAt(String line,
                                  String to,
                                  String from,
-                                 String departingAt) {
-        List<LocalTime> departureTimes = localTimesFrom(departingAt);
+                                 List<LocalTime> departureTimes) {
         timeTable.scheduleService(line, departureTimes, from, to);
     }
 
     List<LocalTime> proposedDepartures;
 
-    @When("Travis want to travel from (.*) to (.*) at (.*)")
-    public void travelBetween(String from, String to, String departingAt) {
-        LocalTime departureTime = LocalTime.parse(departingAt);
-        proposedDepartures = itineraryService.findNextDepartures(departureTime,
-                from,
-                to);
+    @When("Travis want to travel from {station} to {station} at {time}")
+    public void travelBetween(String from, String to, LocalTime departureTime) {
+        proposedDepartures = itineraryService.findNextDepartures(departureTime, from, to);
     }
 
-    @Then("he should be told about the trains at: (.*)")
-    public void shouldBeToldAboutTheTrainsAt(String expectedDepartures) {
-        List<LocalTime> expected = localTimesFrom(expectedDepartures);
+    @Then("he should be told about the trains at: {times}")
+    public void shouldBeToldAboutTheTrainsAt(List<LocalTime> expected) {
         assertThat(proposedDepartures).isEqualTo(expected);
     }
 
-    private List<LocalTime> localTimesFrom(String listOfDepartureTimes) {
-        return stream(listOfDepartureTimes.split(","))
+    @ParameterType(".*")
+    public LocalTime time(String timeValue) {
+        return LocalTime.parse(timeValue);
+    }
+
+    @ParameterType("T\\d+")
+    public String line(String lineNumber) {
+        return lineNumber;
+    }
+
+    @ParameterType(".*")
+    public String station(String stationName) {
+        return stationName;
+    }
+
+    @ParameterType(".*")
+    public List<LocalTime> times(String timeValue) {
+        return stream(timeValue.split(","))
                 .map(String::trim)
                 .map(LocalTime::parse)
                 .collect(Collectors.toList());
